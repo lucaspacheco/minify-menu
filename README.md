@@ -1,5 +1,5 @@
-# minify-menu
+#minify-menu
 Pure CSS approach to minify - or toggle - a menu
 
-#limitations
-- transition do not aply.
+#Limitations
+- CSS3 transitions don't apply.
