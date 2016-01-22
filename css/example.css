@@ -25,7 +25,17 @@ ul {
         color: #955; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none; 
+color: #955;}
+.main a {
+ font-weight: bold;
+}
+.main a:hover , .main a:visited:hover {
+  color: #559;
+}
+.main a:visited {
+  color: #595;
+}
 
 #toogleSidebar:checked + .sidebar ul {
   padding-left: 0; }
