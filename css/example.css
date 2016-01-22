@@ -1,0 +1,48 @@
+.hidden {
+  display: none; }
+
+ul {
+  list-style: none;
+  padding-left: 0; }
+  ul li a, ul li label {
+    padding-left: 22px;
+    box-shadow: 0 1px 1px -1px black;
+    display: block;
+    width: calc(100% - 22px);
+    padding-top: 1.2em;
+    padding-bottom: 1.2em; }
+    ul li a i.fa, ul li label i.fa {
+      color: #559; }
+  ul li ul {
+    background: rgba(255, 255, 255, 0.1); }
+    ul li ul li a {
+      padding-left: 44px; }
+      ul li ul li a i.fa {
+        color: #595; }
+    ul li ul li ul li a {
+      padding-left: 66px; }
+      ul li ul li ul li a i.fa {
+        color: #955; }
+
+a {
+  text-decoration: none; }
+
+#toogleSidebar:checked + .sidebar ul {
+  padding-left: 0; }
+  #toogleSidebar:checked + .sidebar ul > li > a, #toogleSidebar:checked + .sidebar ul > li label {
+    padding-left: 22px; }
+
+.sidebar {
+  background: #012;
+  color: white;
+  overflow: hidden; }
+  .sidebar a {
+    color: white; }
+  .sidebar nav > ul ul {
+    font-size: 97%; }
+
+.main {
+  background: #f8faff;
+  padding-left: 5%; }
+
+/*# sourceMappingURL=example.css.map */

@@ -1,0 +1,28 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0; }
+
+.main {
+  position: absolute; }
+
+#toogleSidebar:not(:checked) + .sidebar {
+  width: 20%; }
+  #toogleSidebar:not(:checked) + .sidebar + .main {
+    margin-left: 20%; }
+  #toogleSidebar:not(:checked) + .sidebar #labelToogleSidebar .fa-chevron-right, #toogleSidebar:not(:checked) + .sidebar .hide-open, #toogleSidebar:not(:checked) + .sidebar .show-closed {
+    display: none; }
+  #toogleSidebar:not(:checked) + .sidebar .hide-closed, #toogleSidebar:not(:checked) + .sidebar .show-open {
+    display: initial; }
+
+#toogleSidebar:checked + .sidebar {
+  width: 60px; }
+  #toogleSidebar:checked + .sidebar + .main {
+    margin-left: 60px; }
+  #toogleSidebar:checked + .sidebar #labelToogleSidebar .fa-chevron-left, #toogleSidebar:checked + .sidebar #labelToogleSidebar .fa-chevron-left + span, #toogleSidebar:checked + .sidebar .hide-closed, #toogleSidebar:checked + .sidebar .hide-closed + span, #toogleSidebar:checked + .sidebar .show-open, #toogleSidebar:checked + .sidebar .show-open + span {
+    display: none; }
+  #toogleSidebar:checked + .sidebar .hide-open, #toogleSidebar:checked + .sidebar .show-closed {
+    display: initial; }
+
+/*# sourceMappingURL=minify-menu.css.map */
